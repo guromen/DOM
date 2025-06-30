@@ -29,8 +29,7 @@ export function letsGame() {
 
   const img = document.createElement("img");
   img.classList = "character";
-  img.src =
-    "https://github.com/netology-code/ahj-homeworks/blob/video/dom/pic/goblin.png?raw=true";
+  img.src = "goblin.png";
 
   let position = 0;
   cells[position].appendChild(img);
