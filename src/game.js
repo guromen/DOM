@@ -1,3 +1,5 @@
+import goblin from "./assets/goblin.png";
+
 export function getRandomIndex(num) {
   let next = 0;
   do {
@@ -29,7 +31,7 @@ export function letsGame() {
 
   const img = document.createElement("img");
   img.classList = "character";
-  img.src = "goblin.png";
+  img.src = goblin;
 
   let position = 0;
   cells[position].appendChild(img);
